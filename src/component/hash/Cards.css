@@ -1,0 +1,86 @@
+.hashcards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.hashcard {
+  width: 720px;
+  background-color: #e6e4ece0;
+  border-radius: 10px;
+  margin: 0 10px 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.hashcard-img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.hashcard-content {
+  padding: 20px;
+}
+
+.hashcard-content h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hashcard-content p {
+  font-size: 23px;
+  color: #666;
+}
+
+.hashcard.hashcard-third {
+  margin-top: 30px;
+  width: 88%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.hashcard.hashcard-third .hashcard-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.hashcard.hashcard-third .hashcard-img {
+  width: 750px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.hashcard.hashcard-fourth {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 20px 10px;
+}
+
+.hashcard.hashcard-fourth .hashcard-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.hashcard.hashcard-fourth .hashcard-content h1{
+  font-size: 80px;
+  font-weight: bolder;
+  color: rgb(82, 79, 94);
+  
+}
+
+.hashcard-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hashcard-info p {
+  font-size: 20px;
+  color: #666;
+}
